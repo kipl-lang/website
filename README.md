@@ -2,4 +2,4 @@
 
 ### Kipl official website
 
-["https://kipl-lang.org"]("visit website")
+["visit website"]("https://kipl-lang.org")
