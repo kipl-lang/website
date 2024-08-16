@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
 
+import Navbar from "./components/Navbar";
+
 const App: React.FC = () => {
   return(
-    <div>kipl-lang.org</div>
+    <div>
+      <Navbar />
+    </div>
   ); 
 }
 
