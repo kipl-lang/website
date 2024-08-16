@@ -2,4 +2,4 @@
 
 ### Kipl official website
 
-("visit website")["https://kipl-lang.org"]
+### [Visit official website](https://kipl-lang.org)
