@@ -1,0 +1,14 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar-title {
+
+}
+
+.navbar-links {
+
+}
