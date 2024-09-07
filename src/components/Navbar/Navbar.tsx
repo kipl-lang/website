@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
     return(
         <div className="navbar">
             <a className="navbar-title" href="/">Kipl</a>
-            <div className="navbar-links">
+            <div className="navbar-links-container">
                 <a href="">Download</a>
                 <a href="">Documentation</a>
                 <a href="">Community</a>

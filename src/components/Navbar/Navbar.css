@@ -1,14 +1,30 @@
 .navbar {
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
 
 .navbar-title {
-
+    color: var(--main-color);
+    font-size: 2rem;
+    text-decoration: none;
 }
 
-.navbar-links {
+.navbar-links-container {
+    /* */
+}
 
+.navbar-links-container a {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.25s;
+}
+
+.navbar-links-container a:hover {
+    color: #87CEEB;
 }
