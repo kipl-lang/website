@@ -1,4 +1,15 @@
 .download {
     background-color: var(--main-color);
-    padding: 50px;
+    padding: 80px 50px;
+}
+
+.download-title {
+    color: var(--light-color);
+    font-size: 2.2rem;
+    margin: 0;
+}
+
+.download-desc {
+    color: var(--light-color);
+    margin-top: 25px;
 }
