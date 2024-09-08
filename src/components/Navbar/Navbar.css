@@ -1,5 +1,5 @@
 .navbar {
-    background-color: white;
+    background-color: var(--main-color);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -8,7 +8,7 @@
 }
 
 .navbar-title {
-    color: var(--main-color);
+    color: white;
     font-size: 2rem;
     text-decoration: none;
 }
@@ -18,7 +18,7 @@
 }
 
 .navbar-links-container a {
-    color: var(--main-color);
+    color: var(--light-color);
     font-size: 1.2rem;
     text-decoration: none;
     padding: 10px;
@@ -27,4 +27,10 @@
 
 .navbar-links-container a:hover {
     color: #87CEEB;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        
+    }
 }
