@@ -2,15 +2,13 @@ import React from "react";
 import "./App.css";
 
 import Navbar from "./components/Navbar";
-import Body from "./components/Body";
+import Download from "./components/Download";
 
 const App: React.FC = () => {
   return(
     <div>
-      <Navbar />
-        <Body>
-            Kerem
-        </Body>
+        <Navbar />
+        <Download></Download>
     </div>
   );
 }

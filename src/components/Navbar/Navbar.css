@@ -2,35 +2,34 @@
     background-color: var(--main-color);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding: 10px;
 }
 
 .navbar-title {
-    color: white;
+    flex: 1;
+    color: var(--light-color);
     font-size: 2rem;
     text-decoration: none;
+    padding-left: 50px;
 }
 
 .navbar-links-container {
-    /* */
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .navbar-links-container a {
+    background-color: var(--main-color);
     color: var(--light-color);
+    padding: 20px;
     font-size: 1.2rem;
     text-decoration: none;
-    padding: 10px;
-    transition: 0.25s;
+    transition: 0.1s;
 }
 
 .navbar-links-container a:hover {
-    color: #87CEEB;
-}
-
-@media (max-width: 768px) {
-    .navbar {
-        
-    }
+    background-color: var(--light-color);
+    color: var(--main-color);
 }
