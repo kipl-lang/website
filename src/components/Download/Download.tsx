@@ -4,9 +4,9 @@ import "./Download.css";
 const Download:React.FC = () => {
     return(
         <div className="download">
-            <h2 className="download-title">Download Kipl</h2>
-            <p className="download-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, molestiae!</p>
-            <a className="download-button" href="">Downlaod</a>
+            <h2 className="download-title">Build simple, secure, scalable systems with Kipl</h2>
+            <p className="download-desc">Your favorite programming language</p>
+            <a className="download-button" href="">Download</a>
         </div>
     );
 }

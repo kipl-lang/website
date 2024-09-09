@@ -1,6 +1,6 @@
 .download {
     background-color: var(--main-color);
-    padding: 80px 50px;
+    padding: 60px 50px;
     text-align: center;
 }
 
@@ -25,4 +25,9 @@
     padding: 25px;
     margin-top: 25px;
     text-decoration: none;
+    transition: 0.2s;
+}
+
+.download-button:hover {
+    background-color: #FFD700 ;
 }
