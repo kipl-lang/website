@@ -6,6 +6,7 @@ const Download:React.FC = () => {
         <div className="download">
             <h2 className="download-title">Download Kipl</h2>
             <p className="download-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, molestiae!</p>
+            <a className="download-button" href="">Downlaod</a>
         </div>
     );
 }
