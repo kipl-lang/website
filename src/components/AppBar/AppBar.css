@@ -32,7 +32,16 @@
 }
 
 @media (max-width: 768px) {
+
+    .app-bar {
+        flex-direction: column;
+    }
+
     .app-bar-links-container {
         display: none;
+    }
+
+    .app-bar-link {
+        background: red;
     }
 }
