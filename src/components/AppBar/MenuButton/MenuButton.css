@@ -1,0 +1,17 @@
+.menu-button {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-button {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.menu-icon {
+    color: var(--text-light);
+    font-size: 2rem;
+    padding: 10px;
+}
