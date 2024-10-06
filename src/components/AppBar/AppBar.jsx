@@ -10,9 +10,9 @@ const AppBar = () => {
             <Link to={"/"} className={"app-bar-title"}>Kipl</Link>
             <MenuButton />
             <div className={"app-bar-links-container"}>
-                <Link className={"app-bar-link"}>Get Started</Link>
-                <Link className={"app-bar-link"}>Documentation</Link>
-                <Link className={"app-bar-link"}>Community</Link>
+                <Link to={"/"} className={"app-bar-link"}>Get Started</Link>
+                <Link to={"/"} className={"app-bar-link"}>Documentation</Link>
+                <Link to={"/"} className={"app-bar-link"}>Community</Link>
             </div>
         </div>
     );

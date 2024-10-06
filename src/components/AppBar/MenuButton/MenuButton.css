@@ -12,6 +12,7 @@
 
 .menu-icon {
     color: var(--text-light);
+    cursor: pointer;
     font-size: 2rem;
     padding: 10px;
 }

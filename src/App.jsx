@@ -1,15 +1,22 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-//pages
-import Home from "./pages/Home";
+// providers
 import { ThemeProvider } from "./contexts/ThemeContext.jsx";
+import { MenuProvider } from "./contexts/MenuContext.jsx";
+
+// pages
+import Home from "./pages/Home";
+
+// components
 import AppBar from "./components/AppBar/index.js";
 
 const App = () => {
     return(
         <ThemeProvider>
             <BrowserRouter>
-                <AppBar />
+                <MenuProvider>
+                    <AppBar />
+                </MenuProvider>
                 <Routes>
                     <Route path={"/"} element={ <Home /> } />
                 </Routes>
