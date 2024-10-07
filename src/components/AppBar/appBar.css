@@ -44,10 +44,10 @@
         background: var(--primary);
         position: absolute;
         right: 0;
-        top: 8.8vh;
+        top: 52px;
         display: none;
         width: 60%;
-        height: 91.2%;
+        height: calc(100vh - 52px);
     }
 
     .app-bar-link {
