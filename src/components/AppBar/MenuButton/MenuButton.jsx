@@ -1,6 +1,6 @@
 import {useContext} from "react";
 
-import "./MenuButton.css";
+import "./menuButton.css";
 
 import { MenuContext } from "../../../contexts/MenuContext.jsx";
 

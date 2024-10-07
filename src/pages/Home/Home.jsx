@@ -1,7 +1,10 @@
+// components
+import Intro from "../../components/Intro/index.js";
+
 const Home = () => {
     return(
         <div>
-            hello world
+            <Intro />
         </div>
     );
 }
