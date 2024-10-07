@@ -5,10 +5,12 @@ import { Link } from "react-router-dom";
 import MenuButton from "./MenuButton";
 import {useContext} from "react";
 import { MenuContext } from "../../contexts/MenuContext.jsx";
+import ThemeButton from "./ThemeButton/index.js";
 
 const AppBar = () => {
 
     const { isMenuOpen } = useContext(MenuContext);
+
     return(
         <div className={"app-bar"}>
             <div className={"app-bar-title-container"}>
@@ -19,6 +21,7 @@ const AppBar = () => {
                 <Link to={"/"} className={"app-bar-link"}>Documentation</Link>
                 <Link to={"/"} className={"app-bar-link"}>Download</Link>
                 <Link to={"/"} className={"app-bar-link"}>Community</Link>
+                <ThemeButton />
             </div>
         </div>
     );

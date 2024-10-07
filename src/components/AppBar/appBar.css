@@ -23,6 +23,7 @@
 
 .app-bar-link {
     color: var(--text-light);
+    cursor: pointer;
     border-bottom: 2px solid var(--primary);
     flex: 1;
     font-size: 1.125rem;
@@ -42,7 +43,7 @@
 @media (max-width: 768px) {
     .app-bar-links {
         background: var(--primary);
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 52px;
         display: none;

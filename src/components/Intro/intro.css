@@ -1,3 +1,10 @@
 .intro {
     background: var(--dark-blue);
+    padding: 50px 5%;
+}
+
+.intro-title {
+    color: var(--text-light);
+    font-size: 1.8rem;
+    font-weight: 600;
 }
