@@ -1,5 +1,5 @@
-.intro-download-btn {
-    border: 1px solid var(--text-light);
+.intro-get-started-btn {
+    background: var(--primary);
     border-radius: 5px;
     color: var(--text-light);
     display: inline-block;

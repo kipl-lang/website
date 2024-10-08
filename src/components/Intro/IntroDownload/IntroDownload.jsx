@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const IntroDownload = () => {
     return(
-        <Link to={"/"}>Download</Link>
+        <Link to={"/"} className={"intro-download-btn"}>Download</Link>
     );
 }
 

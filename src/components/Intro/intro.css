@@ -15,7 +15,19 @@
     font-weight: 600;
 }
 
+.intro-desc-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+
 .intro-img-container {
     flex: 1;
     text-align: center;
+}
+
+@media(max-width: 768px) {
+    .intro {
+        display: block;
+    }
 }

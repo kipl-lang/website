@@ -1,1 +1,1 @@
-export { default } from "./IntroDownload";
+export { default } from "./IntroDownload.jsx";
