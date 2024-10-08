@@ -21,6 +21,7 @@ const AppBar = () => {
                 <Link to={"/"} className={"app-bar-link"}>Documentation</Link>
                 <Link to={"/"} className={"app-bar-link"}>Download</Link>
                 <Link to={"/"} className={"app-bar-link"}>Community</Link>
+                <Link to={"/"} className={"app-bar-link"}>Languages</Link> { /* burası düzenlenecek*/ }
                 <ThemeButton />
             </div>
         </div>
