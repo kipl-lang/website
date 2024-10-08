@@ -1,10 +1,21 @@
 .intro {
     background: var(--dark-blue);
+    display: flex;
+    flex-direction: row;
     padding: 50px 5%;
 }
 
-.intro-title {
+.intro-desc-container {
+    flex: 1;
+}
+
+.intro-desc-title {
     color: var(--text-light);
     font-size: 1.8rem;
     font-weight: 600;
+}
+
+.intro-img-container {
+    flex: 1;
+    text-align: center;
 }
