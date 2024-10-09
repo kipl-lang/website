@@ -26,6 +26,20 @@
     text-align: center;
 }
 
+.intro-features {
+    margin: 20px 0;
+}
+
+.intro-features ul {
+    margin: 0;
+    padding: 0;
+}
+
+.intro ul li {
+    list-style: none;
+    color: var(--text-light);
+}
+
 @media(max-width: 768px) {
     .intro {
         display: block;

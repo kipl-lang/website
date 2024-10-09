@@ -8,6 +8,14 @@ const Intro = () => {
         <div className={"intro"}>
             <div className={"intro-desc-container"}>
                 <h1 className={"intro-desc-title"}>Your Favourite Programming Language</h1>
+                <div className={"intro-features"}>
+                    <ul>
+                        <li>An open source programming language</li>
+                        <li>Type safety.</li>
+                        <li>Easy.</li>
+                        <li>Fast.</li>
+                    </ul>
+                </div>
                 <div className={"intro-desc-btns"}>
                     <IntroDownload />
                     <IntroGetStarted />
