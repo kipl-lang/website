@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 
 // components
 import AppBar from "./components/AppBar/index.js";
+import Footbar from "./components/FootBar/index.js";
 
 const App = () => {
     return(
@@ -20,6 +21,7 @@ const App = () => {
                 <Routes>
                     <Route path={"/"} element={ <Home /> } />
                 </Routes>
+                <Footbar />
             </BrowserRouter>
         </ThemeProvider>
     );
