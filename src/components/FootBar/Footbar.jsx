@@ -3,7 +3,7 @@ import "./footBar.css";
 const FootBar = () => {
     return(
         <div className={"foot-bar"}>
-            dsfsdf
+            Kipl
         </div>
     );
 }

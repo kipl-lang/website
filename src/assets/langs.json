@@ -1,0 +1,18 @@
+{
+  "langs": [
+    {
+      "code": "en",
+      "name": "English",
+      "data": {
+
+      }
+    },
+    {
+      "code": "tr",
+      "name": "Türkçe",
+      "data": {
+
+      }
+    }
+  ]
+}

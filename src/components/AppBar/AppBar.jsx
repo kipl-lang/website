@@ -1,11 +1,13 @@
 import "./appBar.css";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+
+import { MenuContext } from "../../contexts/MenuContext.jsx";
 
 // Components
 import MenuButton from "./MenuButton";
-import {useContext} from "react";
-import { MenuContext } from "../../contexts/MenuContext.jsx";
 import ThemeButton from "./ThemeButton/index.js";
+import LangModal from "./LangModal/index.js";
 
 const AppBar = () => {
 
@@ -24,6 +26,7 @@ const AppBar = () => {
                 <Link to={"/"} className={"app-bar-link"}>Languages</Link> { /* burası düzenlenecek*/ }
                 <ThemeButton />
             </div>
+            <LangModal />
         </div>
     );
 }

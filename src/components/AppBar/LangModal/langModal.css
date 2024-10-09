@@ -1,0 +1,54 @@
+.lang-modal {
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -30%);
+    max-height: 50%;
+    overflow: auto;
+}
+
+.lang-modal-dark {
+    background: var(--bg-dark);
+}
+
+.lang-modal-light {
+    background: var(--bg-light);
+}
+
+.lang-modal-title {
+    font-weight: 600;
+    padding: 25px 30px;
+    text-align: center;
+}
+
+.lang-modal-title-dark {
+    color: var(--text-light);
+}
+
+.lang-modal-title-light {
+    color: var(--text-dark);
+}
+
+.lang-modal-list {
+    margin-bottom: 25px;
+}
+
+.lang-modal-list-item {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.lang-modal-list-item-dark {
+    color: var(--text-light);
+}
+
+.lang-modal-list-item-light {
+    color: var(--text-dark);
+}
+
+.lang-modal-list-item:hover {
+    background: rgba(200, 200, 200, 0.5);
+}
