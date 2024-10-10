@@ -13,8 +13,12 @@ import LangModal from "./LangModal/index.js";
 
 const AppBar = () => {
 
-    const { isMenuOpen } = useContext(MenuContext);
+    const { isMenuOpen, isLangModalOpen, setIsLangModalOpen } = useContext(MenuContext);
     const { langData } = useContext(LangContext);
+
+    const handleLanguage = () => {
+        setIsLangModalOpen(!isLangModalOpen);
+    }
 
     return(
         <div className={"app-bar"}>
@@ -26,7 +30,13 @@ const AppBar = () => {
                 <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu1 }</Link>
                 <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu2 }</Link>
                 <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu3 }</Link>
-                <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu4 }</Link>
+                <Link
+                    to={"javascript:void(0)"}
+                    className={"app-bar-link"}
+                    onClick={handleLanguage}
+                >
+                    { langData.appbar.menu4 }
+                </Link>
                 <ThemeButton />
             </div>
             <LangModal />
