@@ -13,11 +13,12 @@ import LangModal from "./LangModal/index.js";
 
 const AppBar = () => {
 
-    const { isMenuOpen, isLangModalOpen, setIsLangModalOpen } = useContext(MenuContext);
+    const { isMenuOpen, setIsMenuOpen, isLangModalOpen, setIsLangModalOpen } = useContext(MenuContext);
     const { langData } = useContext(LangContext);
 
     const handleLanguage = () => {
         setIsLangModalOpen(!isLangModalOpen);
+        setIsMenuOpen(false);
     }
 
     return(

@@ -6,16 +6,17 @@ import { ThemeContext } from "../../../contexts/ThemeContext.jsx";
 import { LangContext } from "../../../contexts/LangContext.jsx";
 
 import { Link } from "react-router-dom";
-import {MenuContext} from "../../../contexts/MenuContext.jsx";
+import { MenuContext } from "../../../contexts/MenuContext.jsx";
 
 const LangModal = () => {
 
     const { theme } = useContext(ThemeContext);
     const { langCode, setLangCode, langData } = useContext(LangContext);
-    const { isLangModalOpen } = useContext(MenuContext);
+    const { isLangModalOpen, setIsLangModalOpen } = useContext(MenuContext);
 
     const handleLangChange = (code) =>  {
         setLangCode(code);
+        setIsLangModalOpen(false);
         localStorage.setItem("langCode", code);
     }
 
