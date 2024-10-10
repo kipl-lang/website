@@ -1,8 +1,10 @@
 import "./appBar.css";
+
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 
 import { MenuContext } from "../../contexts/MenuContext.jsx";
+import { LangContext } from "../../contexts/LangContext.jsx";
 
 // Components
 import MenuButton from "./MenuButton";
@@ -12,6 +14,7 @@ import LangModal from "./LangModal/index.js";
 const AppBar = () => {
 
     const { isMenuOpen } = useContext(MenuContext);
+    const { langData } = useContext(LangContext);
 
     return(
         <div className={"app-bar"}>
@@ -20,10 +23,10 @@ const AppBar = () => {
             </div>
             <MenuButton />
             <div className={`app-bar-links ${isMenuOpen && "app-bar-links-open"}`}>
-                <Link to={"/"} className={"app-bar-link"}>Documentation</Link>
-                <Link to={"/"} className={"app-bar-link"}>Download</Link>
-                <Link to={"/"} className={"app-bar-link"}>Community</Link>
-                <Link to={"/"} className={"app-bar-link"}>Languages</Link> { /* burası düzenlenecek*/ }
+                <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu1 }</Link>
+                <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu2 }</Link>
+                <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu3 }</Link>
+                <Link to={"/"} className={"app-bar-link"}>{ langData.appbar.menu4 }</Link>
                 <ThemeButton />
             </div>
             <LangModal />

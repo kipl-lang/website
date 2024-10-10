@@ -1,22 +1,28 @@
-import {createContext, useEffect, useState} from "react";
+import languages from "../assets/langs.json"
+
+import { createContext, useEffect, useState } from "react";
 
 const LangContext = createContext();
 
 const LangProvider = ({ children }) => {
 
-    const [lang, setLang] = useState("en");
+    const [langCode, setLangCode] = useState("en");
 
     useEffect(() => {
-        const storedLang = localStorage.getItem("lang");
+        const storedLangCode = localStorage.getItem("langCode");
 
-        if(storedLang)
-            setLang(storedLang);
+        if(storedLangCode)
+            setLangCode(storedLangCode);
         else
-            setLang("en");
+            setLangCode("en");
     }, []);
 
+
+    const selectedLang = languages.langs.find(lang => lang.code === langCode);
+    const langData =  selectedLang ? selectedLang.data : null;
+
     return(
-        <LangContext.Provider value={{ lang, setLang }}>
+        <LangContext.Provider value={{ langCode, setLangCode, langData }}>
             { children }
         </LangContext.Provider>
     );

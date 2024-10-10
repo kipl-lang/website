@@ -4,6 +4,7 @@
     top: 30%;
     transform: translate(-50%, -30%);
     max-height: 50%;
+    min-width: 200px;
     overflow: auto;
 }
 
@@ -50,5 +51,9 @@
 }
 
 .lang-modal-list-item:hover {
+    background: rgba(200, 200, 200, 0.5);
+}
+
+.lang-modal-list-item-active {
     background: rgba(200, 200, 200, 0.5);
 }

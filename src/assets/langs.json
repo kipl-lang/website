@@ -4,14 +4,48 @@
       "code": "en",
       "name": "English",
       "data": {
-
+        "appbar": {
+          "menu1": "Documentation",
+          "menu2": "Download",
+          "menu3": "Community",
+          "menu4": "Languages",
+          "langModal": {
+            "title": "Select Language"
+          }
+        },
+        "intro": {
+          "title": "Your Favourite Programming Language",
+          "feature1": "An open source programming language",
+          "feature2": "Type safety.",
+          "feature3": "Easy",
+          "feature4": "Fast",
+          "btn1": "Download",
+          "btn2": "Get Started"
+        }
       }
     },
     {
       "code": "tr",
       "name": "Türkçe",
       "data": {
-
+        "appbar": {
+          "menu1": "Dökümantasyon",
+          "menu2": "İndir",
+          "menu3": "Topluluk",
+          "menu4": "Diller",
+          "langModal": {
+            "title": "Dil Seç"
+          }
+        },
+        "intro": {
+          "title": "Favori programlama dilin",
+          "feature1": "Açık kaynak kodlu",
+          "feature2": "Tip güvenli",
+          "feature3": "Kolay",
+          "feature4": "Hızlı",
+          "btn1": "İndir",
+          "btn2": "Şimdi Başla"
+        }
       }
     }
   ]
