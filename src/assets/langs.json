@@ -47,6 +47,30 @@
           "btn2": "Şimdi Başla"
         }
       }
+    },
+    {
+      "code": "fr",
+      "name": "Français",
+      "data": {
+        "appbar": {
+          "menu1": "Documentation",
+          "menu2": "Télécharger",
+          "menu3": "Communauté",
+          "menu4": "Langues",
+          "langModal": {
+            "title": "Sélectionner la langue"
+          }
+        },
+        "intro": {
+          "title": "Votre langage de programmation préféré",
+          "feature1": "Un langage de programmation open source",
+          "feature2": "Sécurité des types.",
+          "feature3": "Facile",
+          "feature4": "Rapide",
+          "btn1": "Télécharger",
+          "btn2": "Commencer"
+        }
+      }
     }
   ]
 }
