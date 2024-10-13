@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && powershell -Command \"Copy-Item CNAME -Destination dist\"",
+    "predeploy": "npm run build && cp CNAME dist/",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
