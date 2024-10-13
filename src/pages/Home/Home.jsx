@@ -1,11 +1,15 @@
 // components
 import Intro from "../../components/Intro/index.js";
+import HelmetStruct from "../../components/HelmetStruct/index.js";
 
 const Home = () => {
     return(
-        <div>
-            <Intro />
-        </div>
+        <>
+            <HelmetStruct title={"KIPL"} />
+            <div>
+                <Intro/>
+            </div>
+        </>
     );
 }
 
