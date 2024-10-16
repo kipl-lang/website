@@ -1,4 +1,32 @@
 .foot-bar {
     background: #1A3A5F;
+    display: flex;
+    align-items: center;
     padding: 20px 5%;
+}
+
+.foot-bar-links {
+    flex: 1;
+}
+.foot-bar-links-logo {
+    width: 100px;
+}
+
+
+.foot-bar-social {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-bar-social-item {
+    text-decoration: none;
+    padding: 0 20px;
+    color: var(--text-light);
+}
+
+@media(max-width: 768px) {
+    .foot-bar {
+        display: block;
+    }
 }
