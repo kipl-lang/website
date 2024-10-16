@@ -7,11 +7,19 @@
 
 .foot-bar-links {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .foot-bar-links-logo {
     width: 100px;
 }
 
+.foot-bar-link {
+    color: var(--text-light);
+    margin-bottom: 10px;
+    text-decoration: none;
+}
 
 .foot-bar-social {
     flex: 1;
@@ -28,5 +36,9 @@
 @media(max-width: 768px) {
     .foot-bar {
         display: block;
+    }
+
+    .foot-bar-social {
+        margin-top: 20px;
     }
 }

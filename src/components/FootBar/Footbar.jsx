@@ -14,6 +14,10 @@ const FootBar = () => {
                         className={"foot-bar-links-logo"}
                     />
                 </Link>
+                <Link className={"foot-bar-link"} to={""}>Docs</Link>
+                <Link className={"foot-bar-link"} to={""}>Community</Link>
+                <Link className={"foot-bar-link"} to={""}>Playground (Coming soon)</Link>
+                <Link className={"foot-bar-link"} to={""}>Stack Overflow</Link>
             </div>
             <div className={"foot-bar-social"}>
                 <Link to={""} className={"foot-bar-social-item"}>
