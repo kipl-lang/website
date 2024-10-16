@@ -1,0 +1,14 @@
+.foot {
+    padding: 20px;
+    text-align: center;
+}
+
+.foot--dark {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+
+.foot-light {
+    background: var(--bg-dark);
+    color: var(--text-light);
+}
