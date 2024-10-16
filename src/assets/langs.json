@@ -21,6 +21,12 @@
           "feature4": "Fast",
           "btn1": "Download",
           "btn2": "Get Started"
+        },
+        "footbar": {
+          "link1": "Docs",
+          "link2": "Community",
+          "link3": "PLayground",
+          "link4": "Stack Overflow"
         }
       }
     },
@@ -29,7 +35,7 @@
       "name": "Türkçe",
       "data": {
         "appbar": {
-          "menu1": "Dökümantasyon",
+          "menu1": "Dokümantasyon",
           "menu2": "İndir",
           "menu3": "Topluluk",
           "menu4": "Diller",
@@ -45,6 +51,12 @@
           "feature4": "Hızlı",
           "btn1": "İndir",
           "btn2": "Şimdi Başla"
+        },
+        "footbar": {
+          "link1": "Dokümanlar",
+          "link2": "Topluluk",
+          "link3": "Kodlama alanı",
+          "link4": "Stack Overflow"
         }
       }
     },
@@ -69,6 +81,12 @@
           "feature4": "Rapide",
           "btn1": "Télécharger",
           "btn2": "Commencer"
+        },
+        "footbar": {
+          "link1": "Dokümanlar",
+          "link2": "Topluluk",
+          "link3": "Kodlama alanı",
+          "link4": "Stack Overflow"
         }
       }
     }

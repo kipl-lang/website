@@ -1,10 +1,16 @@
 import "./footBar.css";
+import { useContext } from "react";
+import { LangContext } from "../../contexts/LangContext.jsx";
+
 import { Link } from "react-router-dom";
 import { GitHub, Reddit, X } from "@mui/icons-material";
 import footLogo from "../../assets/images/footbar-logo.png";
 import Foot from "./Foot/index.js";
 
 const FootBar = () => {
+
+    const { langData } = useContext(LangContext);
+
     return(
         <div className={"foot-bar"}>
             <div className={"foot-bar-head"}>
@@ -16,10 +22,10 @@ const FootBar = () => {
                             className={"foot-bar-links-logo"}
                         />
                     </Link>
-                    <Link className={"foot-bar-link"} to={""}>Docs</Link>
-                    <Link className={"foot-bar-link"} to={""}>Community</Link>
-                    <Link className={"foot-bar-link"} to={""}>Playground (Coming soon)</Link>
-                    <Link className={"foot-bar-link"} to={""}>Stack Overflow</Link>
+                    <Link className={"foot-bar-link"} to={""}>{ langData.footbar.link1 }</Link>
+                    <Link className={"foot-bar-link"} to={""}>{ langData.footbar.link2 }</Link>
+                    <Link className={"foot-bar-link"} to={""}>{ langData.footbar.link3 }</Link>
+                    <Link className={"foot-bar-link"} to={""}>{ langData.footbar.link4 }</Link>
                 </div>
                 <div className={"foot-bar-social"}>
                     <Link to={""} className={"foot-bar-social-item"}>
