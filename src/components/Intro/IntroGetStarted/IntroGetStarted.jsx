@@ -10,7 +10,7 @@ const IntroGetStarted = () => {
     const { langData } = useContext(LangContext);
 
     return(
-        <Link to={"/"} className={"intro-get-started-btn"}>{ langData.intro.btn2 }</Link>
+        <Link to={"/get-started"} className={"intro-get-started-btn"}>{ langData.intro.btn2 }</Link>
     );
 }
 
