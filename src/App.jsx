@@ -11,6 +11,7 @@ import Home from "./pages/Home";
 // components
 import AppBar from "./components/AppBar/index.js";
 import Footbar from "./components/FootBar/index.js";
+import GetStarted from "./pages/GetStarted/index.js";
 
 const App = () => {
     return(
@@ -22,6 +23,7 @@ const App = () => {
                     </MenuProvider>
                     <Routes>
                         <Route path={"/"} element={ <Home /> } />
+                        <Route path={"get-started"} element={ <GetStarted /> } />
                     </Routes>
                     <Footbar />
                 </BrowserRouter>
